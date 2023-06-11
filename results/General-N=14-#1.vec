@@ -1,0 +1,44 @@
+version 3
+run General-21-20230611-05:47:40-420121
+attr configname General
+attr datetime 20230611-05:47:40
+attr datetimef 20230611-054740
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $N=14
+attr iterationvarsd N=14
+attr iterationvarsf N=14-
+attr measurement $N=14
+attr network LN
+attr processid 420121
+attr repetition 1
+attr replication #1
+attr resultdir results
+attr runnumber 21
+attr seedset 21
+itervar N 14
+config network LN
+config sim-time-limit 250000s
+config **.tic[*].hopCount.result-recording-modes +vector
+config *.numCentralNodes 14
+config repeat 4
+
+vector 0 LN.lnd[10] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 1 LN.lnd[3] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 2 LN.lnd[18] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+0	7	0.6	6
+1	9	0.8	2
+2	25	2.4	16
+

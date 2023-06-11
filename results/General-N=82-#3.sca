@@ -1,0 +1,540 @@
+version 3
+run General-107-20230611-05:41:40-416612
+attr configname General
+attr datetime 20230611-05:41:40
+attr datetimef 20230611-054140
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $N=82
+attr iterationvarsd N=82
+attr iterationvarsf N=82-
+attr measurement $N=82
+attr network LN
+attr processid 416612
+attr repetition 3
+attr replication #3
+attr resultdir results
+attr runnumber 107
+attr seedset 107
+itervar N 82
+config network LN
+config sim-time-limit 250000s
+config **.tic[*].hopCount.result-recording-modes +vector
+config *.numCentralNodes 82
+config repeat 4
+
+par LN.lnd[0].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[0].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[0].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[2].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[2].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[2].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[1].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[1].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[1].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[2].gate$o[1].channel typename "\"LN.Channel\""
+par LN.lnd[2].gate$o[1].channel disabled false
+attr mutable ""
+par LN.lnd[2].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[2].gate$o[2].channel typename "\"LN.Channel\""
+par LN.lnd[2].gate$o[2].channel disabled false
+attr mutable ""
+par LN.lnd[2].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[3].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[3].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[3].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[3].gate$o[1].channel typename "\"LN.Channel\""
+par LN.lnd[3].gate$o[1].channel disabled false
+attr mutable ""
+par LN.lnd[3].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[4].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[4].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[4].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[4].gate$o[1].channel typename "\"LN.Channel\""
+par LN.lnd[4].gate$o[1].channel disabled false
+attr mutable ""
+par LN.lnd[4].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[5].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[5].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[5].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[5].gate$o[1].channel typename "\"LN.Channel\""
+par LN.lnd[5].gate$o[1].channel disabled false
+attr mutable ""
+par LN.lnd[5].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[6].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[6].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[6].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[6].gate$o[1].channel typename "\"LN.Channel\""
+par LN.lnd[6].gate$o[1].channel disabled false
+attr mutable ""
+par LN.lnd[6].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[5].gate$o[2].channel typename "\"LN.Channel\""
+par LN.lnd[5].gate$o[2].channel disabled false
+attr mutable ""
+par LN.lnd[5].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[7].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[7].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[7].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[5].gate$o[3].channel typename "\"LN.Channel\""
+par LN.lnd[5].gate$o[3].channel disabled false
+attr mutable ""
+par LN.lnd[5].gate$o[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[8].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[8].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[8].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[5].gate$o[4].channel typename "\"LN.Channel\""
+par LN.lnd[5].gate$o[4].channel disabled false
+attr mutable ""
+par LN.lnd[5].gate$o[4].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[9].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[9].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[9].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[3].gate$o[2].channel typename "\"LN.Channel\""
+par LN.lnd[3].gate$o[2].channel disabled false
+attr mutable ""
+par LN.lnd[3].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[19].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[19].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[19].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[3].gate$o[3].channel typename "\"LN.Channel\""
+par LN.lnd[3].gate$o[3].channel disabled false
+attr mutable ""
+par LN.lnd[3].gate$o[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[10].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[10].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[10].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[3].gate$o[4].channel typename "\"LN.Channel\""
+par LN.lnd[3].gate$o[4].channel disabled false
+attr mutable ""
+par LN.lnd[3].gate$o[4].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[11].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[11].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[11].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[4].gate$o[2].channel typename "\"LN.Channel\""
+par LN.lnd[4].gate$o[2].channel disabled false
+attr mutable ""
+par LN.lnd[4].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[18].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[18].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[18].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[4].gate$o[3].channel typename "\"LN.Channel\""
+par LN.lnd[4].gate$o[3].channel disabled false
+attr mutable ""
+par LN.lnd[4].gate$o[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[17].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[17].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[17].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[4].gate$o[4].channel typename "\"LN.Channel\""
+par LN.lnd[4].gate$o[4].channel disabled false
+attr mutable ""
+par LN.lnd[4].gate$o[4].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[13].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[13].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[13].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[17].gate$o[1].channel typename "\"LN.Channel\""
+par LN.lnd[17].gate$o[1].channel disabled false
+attr mutable ""
+par LN.lnd[17].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[14].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[14].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[14].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[9].gate$o[1].channel typename "\"LN.Channel\""
+par LN.lnd[9].gate$o[1].channel disabled false
+attr mutable ""
+par LN.lnd[9].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[10].gate$o[1].channel typename "\"LN.Channel\""
+par LN.lnd[10].gate$o[1].channel disabled false
+attr mutable ""
+par LN.lnd[10].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[3].gate$o[5].channel typename "\"LN.Channel\""
+par LN.lnd[3].gate$o[5].channel disabled false
+attr mutable ""
+par LN.lnd[3].gate$o[5].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[16].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[16].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[16].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[7].gate$o[1].channel typename "\"LN.Channel\""
+par LN.lnd[7].gate$o[1].channel disabled false
+attr mutable ""
+par LN.lnd[7].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[15].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[15].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[15].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[0].gate$o[1].channel typename "\"LN.Channel\""
+par LN.lnd[0].gate$o[1].channel disabled false
+attr mutable ""
+par LN.lnd[0].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[12].gate$o[0].channel typename "\"LN.Channel\""
+par LN.lnd[12].gate$o[0].channel disabled false
+attr mutable ""
+par LN.lnd[12].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[2].gate$o[3].channel typename "\"LN.Channel\""
+par LN.lnd[2].gate$o[3].channel disabled false
+attr mutable ""
+par LN.lnd[2].gate$o[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par LN.lnd[0] typename "\"Node\""
+statistic LN.lnd[0] hopCount:stats
+field count 1833
+field mean 80.283142389525
+field stddev 90.850211578355
+field min 1
+field max 826
+field sum 147159
+field sqrsum 26935277
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[1] typename "\"Node\""
+statistic LN.lnd[1] hopCount:stats
+field count 1926
+field mean 82.736240913811
+field stddev 90.675422321523
+field min 1
+field max 675
+field sum 159350
+field sqrsum 29011432
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[2] typename "\"Node\""
+statistic LN.lnd[2] hopCount:stats
+field count 1868
+field mean 42.533725910064
+field stddev 52.667753643425
+field min 1
+field max 473
+field sum 79453
+field sqrsum 8558289
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[3] typename "\"Node\""
+statistic LN.lnd[3] hopCount:stats
+field count 1869
+field mean 17.974852862493
+field stddev 24.865998668199
+field min 1
+field max 303
+field sum 33595
+field sqrsum 1758883
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[4] typename "\"Node\""
+statistic LN.lnd[4] hopCount:stats
+field count 1888
+field mean 17.784957627119
+field stddev 21.780359155378
+field min 1
+field max 195
+field sum 33578
+field sqrsum 1492346
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[5] typename "\"Node\""
+statistic LN.lnd[5] hopCount:stats
+field count 1876
+field mean 38.594882729211
+field stddev 47.813192661296
+field min 1
+field max 338
+field sum 72404
+field sqrsum 7080864
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[6] typename "\"Node\""
+statistic LN.lnd[6] hopCount:stats
+field count 1874
+field mean 60.016542155816
+field stddev 67.811500642814
+field min 1
+field max 467
+field sum 112471
+field sqrsum 15362923
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[7] typename "\"Node\""
+statistic LN.lnd[7] hopCount:stats
+field count 1892
+field mean 77.334566596195
+field stddev 81.087326578492
+field min 1
+field max 565
+field sum 146317
+field sqrsum 23748979
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[8] typename "\"Node\""
+statistic LN.lnd[8] hopCount:stats
+field count 1850
+field mean 82.136216216216
+field stddev 85.202592129135
+field min 1
+field max 574
+field sum 151952
+field sqrsum 25903544
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[9] typename "\"Node\""
+statistic LN.lnd[9] hopCount:stats
+field count 1924
+field mean 53.643970893971
+field stddev 56.320710429906
+field min 1
+field max 431
+field sum 103211
+field sqrsum 11636447
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[10] typename "\"Node\""
+statistic LN.lnd[10] hopCount:stats
+field count 1911
+field mean 38.477760334903
+field stddev 40.160885902172
+field min 1
+field max 272
+field sum 73531
+field sqrsum 5909941
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[11] typename "\"Node\""
+statistic LN.lnd[11] hopCount:stats
+field count 1888
+field mean 59.270127118644
+field stddev 56.679456621879
+field min 1
+field max 589
+field sum 111902
+field sqrsum 12694548
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[12] typename "\"Node\""
+statistic LN.lnd[12] hopCount:stats
+field count 1930
+field mean 80.705699481865
+field stddev 85.383199400819
+field min 1
+field max 655
+field sum 155762
+field sqrsum 26633852
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[13] typename "\"Node\""
+statistic LN.lnd[13] hopCount:stats
+field count 1967
+field mean 96.156075241485
+field stddev 101.43110527568
+field min 1
+field max 741
+field sum 189139
+field sqrsum 38413601
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[14] typename "\"Node\""
+statistic LN.lnd[14] hopCount:stats
+field count 1908
+field mean 90.655136268344
+field stddev 93.171355349223
+field min 1
+field max 671
+field sum 172970
+field sqrsum 32235098
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[15] typename "\"Node\""
+statistic LN.lnd[15] hopCount:stats
+field count 1809
+field mean 119.91210613599
+field stddev 125.37099155151
+field min 1
+field max 966
+field sum 216921
+field sqrsum 54429391
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[16] typename "\"Node\""
+statistic LN.lnd[16] hopCount:stats
+field count 1825
+field mean 121.40054794521
+field stddev 125.60250453091
+field min 1
+field max 868
+field sum 221556
+field sqrsum 55672424
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[17] typename "\"Node\""
+statistic LN.lnd[17] hopCount:stats
+field count 1903
+field mean 55.640042038886
+field stddev 57.694007860484
+field min 1
+field max 394
+field sum 105883
+field sqrsum 12222329
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[18] typename "\"Node\""
+statistic LN.lnd[18] hopCount:stats
+field count 1884
+field mean 57.323779193206
+field stddev 57.009276595998
+field min 1
+field max 479
+field sum 107998
+field sqrsum 12310712
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN.lnd[19] typename "\"Node\""
+statistic LN.lnd[19] hopCount:stats
+field count 1831
+field mean 57.246859639541
+field stddev 54.933185544009
+field min 1
+field max 337
+field sum 104819
+field sqrsum 11522867
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+par LN typename "\"LN\""
+par LN numCentralNodes 4
+

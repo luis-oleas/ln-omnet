@@ -1,0 +1,147 @@
+file 803569 1686480099                                          
+version 3
+run General-108-20230611-05:41:39-416617
+attr configname General
+attr datetime 20230611-05:41:39
+attr datetimef 20230611-054139
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $N=85
+attr iterationvarsd N=85
+attr iterationvarsf N=85-
+attr measurement $N=85
+attr network LN
+attr processid 416617
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 108
+attr seedset 108
+itervar N 85
+config network LN
+config sim-time-limit 250000s
+config **.tic[*].hopCount.result-recording-modes +vector
+config *.numCentralNodes 85
+config repeat 4
+
+vector 0 LN.lnd[4] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 1 LN.lnd[7] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 2 LN.lnd[16] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 3 LN.lnd[6] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 4 LN.lnd[14] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 5 LN.lnd[8] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 6 LN.lnd[11] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 7 LN.lnd[3] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 8 LN.lnd[15] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 9 LN.lnd[19] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 10 LN.lnd[2] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 11 LN.lnd[18] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 12 LN.lnd[17] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 13 LN.lnd[1] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 14 LN.lnd[0] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 15 LN.lnd[13] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 16 LN.lnd[12] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 17 LN.lnd[9] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 18 LN.lnd[5] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 19 LN.lnd[10] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+0	3324 39936 10 2497436 0.9 249743.5 1933 1 250 35066 1621384
+1	43260 40768 92 2498804 9.1 249880.3 1923 1 649 141473 22982737
+2	84028 41486 95 2498749 9.4 249874.8 1967 1 761 228056 52053956
+3	125514 38310 150 2498744 14.9 249874.3 1820 1 551 107005 14047799
+4	163824 38939 263 2499983 26.2 249998.2 1859 1 969 181939 35292191
+5	202763 38704 314 2497392 31.3 249739.1 1820 1 720 146529 24526653
+6	241467 39529 345 2499521 34.4 249952 1901 1 440 115866 14035454
+7	280996 37860 359 2499139 35.8 249913.8 1872 1 222 35526 1892608
+8	318856 39486 664 2496456 66.3 249645.5 1844 1 709 218901 53680551
+9	358342 39790 1212 2499008 121.1 249900.7 1882 1 447 112527 13398779
+10	398132 40494 1216 2497472 121.5 249747.1 1847 1 422 79823 8756437
+11	438626 40723 1235 2499527 123.4 249952.6 1868 1 524 115754 14936802
+12	479349 38956 1251 2497623 125 249762.2 1797 1 428 97312 11426102
+13	518305 41539 1535 2497979 153.4 249797.8 1900 1 636 155149 26900203
+14	559844 41234 1537 2498979 153.6 249897.8 1888 1 606 147018 25465778
+15	601078 41384 1668 2499884 166.7 249988.3 1852 1 1021 176323 33630009
+16	642462 39778 1923 2499129 192.2 249912.8 1813 1 697 156100 29063470
+17	682240 41280 2060 2499146 205.9 249914.5 1863 1 508 109991 13409299
+18	723520 39910 4583 2498899 458.2 249889.8 1861 1 466 72723 7352597
+19	763430 40138 8176 2498856 817.5 249885.5 1829 1 264 66901 5133289
+

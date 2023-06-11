@@ -1,0 +1,87 @@
+file 2096 1686480458                                            
+version 3
+run General-5-20230611-05:47:38-420092
+attr configname General
+attr datetime 20230611-05:47:38
+attr datetimef 20230611-054738
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $N=6
+attr iterationvarsd N=6
+attr iterationvarsf N=6-
+attr measurement $N=6
+attr network LN
+attr processid 420092
+attr repetition 1
+attr replication #1
+attr resultdir results
+attr runnumber 5
+attr seedset 5
+itervar N 6
+config network LN
+config sim-time-limit 250000s
+config **.tic[*].hopCount.result-recording-modes +vector
+config *.numCentralNodes 6
+config repeat 4
+
+vector 0 LN.lnd[4] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 1 LN.lnd[10] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 2 LN.lnd[0] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 3 LN.lnd[18] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 4 LN.lnd[1] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 5 LN.lnd[6] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 6 LN.lnd[13] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 7 LN.lnd[5] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 8 LN.lnd[9] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 9 LN.lnd[19] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+0	1936 12 34 34 3.3 3.3 1 33 33 33 1089
+1	1948 11 42 42 4.1 4.1 1 8 8 8 64
+2	1959 12 121 121 12 12 1 79 79 79 6241
+3	1971 27 213 433 21.2 43.2 2 6 92 98 8500
+4	1998 14 283 283 28.2 28.2 1 70 70 70 4900
+5	2012 14 304 304 30.3 30.3 1 21 21 21 441
+6	2026 14 342 342 34.1 34.1 1 38 38 38 1444
+7	2040 26 427 631 42.6 63 2 45 85 130 9250
+8	2066 15 586 586 58.5 58.5 1 153 153 153 23409
+9	2081 14 728 728 72.7 72.7 1 97 97 97 9409
+

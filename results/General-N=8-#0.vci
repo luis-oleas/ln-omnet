@@ -1,0 +1,69 @@
+file 1634 1686480458                                            
+version 3
+run General-8-20230611-05:47:38-420093
+attr configname General
+attr datetime 20230611-05:47:38
+attr datetimef 20230611-054738
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $N=8
+attr iterationvarsd N=8
+attr iterationvarsf N=8-
+attr measurement $N=8
+attr network LN
+attr processid 420093
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 8
+attr seedset 8
+itervar N 8
+config network LN
+config sim-time-limit 250000s
+config **.tic[*].hopCount.result-recording-modes +vector
+config *.numCentralNodes 8
+config repeat 4
+
+vector 0 LN.lnd[4] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 1 LN.lnd[2] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 2 LN.lnd[3] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 3 LN.lnd[9] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 4 LN.lnd[10] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 5 LN.lnd[1] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+vector 6 LN.lnd[7] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+0	1525 26 36 205 3.5 20.4 2 35 63 98 5194
+1	1551 14 108 108 10.7 10.7 1 72 72 72 5184
+2	1565 13 113 113 11.2 11.2 1 5 5 5 25
+3	1578 14 126 126 12.5 12.5 1 13 13 13 169
+4	1592 13 129 129 12.8 12.8 1 3 3 3 9
+5	1605 14 142 142 14.1 14.1 1 13 13 13 169
+6	1619 14 240 240 23.9 23.9 1 35 35 35 1225
+
